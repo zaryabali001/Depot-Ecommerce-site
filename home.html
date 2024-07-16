@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="imgs/shortcut icon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="home.css">
+    <title>Depot – A Contemporary Theme for eCommerce</title>
+</head>
+
+<body>
+    <button id="btn">top</button>
+    <div class="side-menu" id="slide-menu">
+        <div class="side-menu-text">
+            <div id="close-menu-btn" onclick="closeNav()">&times;</div>
+            <h3>WELCOME</h3>
+            <h2>Advertising is the way great brands get to be great brands.</h2>
+        </div>
+        <div class="side-menu-imgs">
+            <div class="menu-imgs" style="background-image: url(imgs/side\ bar\ 1.jpg);">
+                <div class="text"><i class="fa-brands fa-instagram"></i></div>
+            </div>
+            <div class="menu-imgs" style="background-image: url(imgs/side\ bar\ 2.jpg);">
+                <div class="text"><i class="fa-brands fa-instagram"></i></div>
+            </div>
+            <div class="menu-imgs" style="background-image: url(imgs/side\ bar\ 3.jpg);">
+                <div class="text"><i class="fa-brands fa-instagram"></i></div>
+            </div>
+            <div class="menu-imgs" style="background-image: url(imgs/side\ bar\ 4.jpg);">
+                <div class="text"><i class="fa-brands fa-instagram"></i></div>
+            </div>
+            <div class="menu-imgs" style="background-image: url(imgs/side\ bar\ 5.jpg);">
+                <div class="text"><i class="fa-brands fa-instagram"></i></div>
+            </div>
+            <div class="menu-imgs" style="background-image: url(imgs/side\ bar\ 6.jpg);">
+                <div class="text"><i class="fa-brands fa-instagram"></i></div>
+            </div>
+            <div class="menu-imgs" style="background-image: url(imgs/side\ bar\ 7.jpg);">
+                <div class="text"><i class="fa-brands fa-instagram"></i></div>
+            </div>
+            <div class="menu-imgs" style="background-image: url(imgs/side\ bar\ 8.jpg);">
+
+                <div class="text"><i class="fa-brands fa-instagram"></i></div>
+
+            </div>
+
+        </div>
+        <div class="side-menu-icons">
+            <div class="menu-text">
+                WE ARE AWESOME FOLOW US
+            </div>
+            <div class="menu-icons">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+
+            </div>
+        </div>
+    </div>
+    <header>
+        <div class="nav">
+            <ul>
+                <li> <a href="#" class="active">HOME</a></li>
+                <li> <a href="/shop.html">SHOP</a></li>
+                <li> <a href="/about.html">ABOUT</a></li>
+                <li> <a href="/blog.html">BLOG</a></li>
+            </ul>
+            <div class="hamburger" id="humburger" onclick="openNavs()">
+               MENU <i class="fa-solid fa-bars"></i>
+            </div>
+
+        </div>
+        <div class="logo" style="background-image: url(imgs/depot\ logo.png);"></div>
+       
+        <div class="nav-icons-search">
+            <div class="nav-icons">
+                <li><i></i>CART <span>($0)</span></li>
+                <li><i class="fa-regular fa-heart"></i><span> (0)</span></li>
+                <li><i class="fa-regular fa-user active" id="show-login"><span>LOGIN</span></i></li>
+                <li><i class="fa-solid fa-magnifying-glass search-active" id="show-search"></i></li>
+                <li><i class= "fa-solid fa-bars active-menu" onclick="openNa()"></i></li>
+                </div>
+               
+            <div class="search-popup">
+                <div id="close-search-btn">&times;</div>
+                <input placeholder="Enter Keyword... " type="search">
+            </div>
+        </div>
+    </header>
+    <div class="dropdown-menu">
+        <ul>
+            <li> <a href="#" class="active">HOME</a></li>
+            <li> <a href="/shop.html">SHOP</a></li>
+            <li> <a href="/about.html">ABOUT</a></li>
+            <li> <a href="/blog.html">BLOG</a></li>
+            <div id="close-ham-btn" onclick="closeNavs()">&times;</div>
+
+        </ul>
+    </div>
+
+        <div class="login-popup">
+            <div class="form">
+                <div class="login-signin">
+                    <div id="close-btn">&times;</div>
+                    <button id="login-btn">LOGIN</button>
+                    <button id="register-btn" class="disable">REGISTER</button>
+                </div>
+                <div class="inputs">
+                    <div class="form-elements" id="name-field">
+                        <label for="email:">
+                            <input type="text" name="" id="email" placeholder="User Name">
+                        </label>
+                    </div>
+                    <div class="form-elements">
+                        <label for="email:">
+                            <input type="email" id="email" placeholder="Enter email">
+                        </label>
+                    </div>
+                    <div class="form-elements">
+                        <label for="passward:">
+                            <input type="password" id="passward" placeholder="Passward">
+                        </label>
+                    </div>
+                    <div class="form-elements" id="repeat">
+                        <label for="passward:">
+                            <input type="password" id="passward" placeholder="Repeat Passward">
+                        </label>
+                    </div>
+                    <div class="form-elements" id="remember-me">
+                        <input type="checkbox">
+                        <label for="remember-me" class="remember-me">Remember me</label>
+                    </div>
+                    <div class="form-elements passward" id="recover">
+                        <a href="#">Lost Your passward?</a>
+                    </div>
+                    <div class="form-elements">
+                        <button id="title-btn">LOGIN</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-1">
+            <input type="radio" name="switch" id="i_1" checked>
+            <input type="radio" name="switch" id="i_2">
+            <input type="radio" name="switch" id="i_3">
+        
+            <div class="wrapper">
+              <div class="slide">
+                <div class="content content1">
+                  <span class="i-1"></span>
+                  <div class="content1-text">
+                    <h1>THINK DIFFERENT.</h1>
+                    <p>Depot is a unique & captivating theme designed specifically for all types of shops and online stores.</p>
+                  </div>
+                  <div class="img-slide"><img src="imgs/h1-slide1-img.png" ></div>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="content content2"><span class="i-2"></span>
+                  <span class="spam-img1"><img src="imgs/h1-slide2-img1.png" ></span>
+                  <div class="content2-text">
+                    <h1>PREMIUM COMFORT.</h1>
+                    <p>One-click import feature lets you import the complete Depot demo content with a single mouse click.</p>
+                  </div>
+                  <span class="spam-img2"><img src="imgs/h1-slide2-img2.png" ></span>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="content content3"><span class="i-3"></span>
+                  <div class="content3-text">
+                    <h1>CONTEMPORARY DESIGN.</h1>
+                    <p>A large set of beautiful & fully flexible homepage layouts lets you create your website quickly & easily.</p>
+                  </div>
+                  <span><img src="imgs/h1-slide3-img.jpg" ></span>
+                </div>
+              </div>
+            </div>
+            <div class="controls">
+              <label for="i_1" class="numbers">01 </label>
+              <label for="i_2" class="numbers">02 </label>
+              <label for="i_3" class="numbers">03 </label>
+            </div>
+          </div>
+
+        <div class="products">
+            <div class="product-nav">
+                <ul>
+                    <li><a href="#" onclick="showPage(event, 'all')" class="active">ALL</a></li>
+                    <li><a href="#" onclick="showPage(event, 'home-decor')">HOME DECOR</a></li>
+                    <li><a href="#" onclick="showPage(event, 'lightning')">LIGHTING</a></li>
+                    <li><a href="#" onclick="showPage(event, 'decoration')">DECORATION</a></li>
+                    <li><a href="#" onclick="showPage(event, 'vase')">VASE</a></li>
+                    <li><a href="#" onclick="showPage(event, 'basics')">BASICS</a></li>
+                    <li><span>FILTER <i class="fa-solid fa-caret-down"></i></span></li>
+                </ul>
+            </div>
+
+            <div id="all" class="page active ">
+                <div class="first">
+                    <div class="all-img1">
+                        <!-- <p>NEW</p> -->
+                        <img src="imgs/product-1.jpg" style="width: 237px; height: 288px;">
+                        <h5>BASKET WITH HANDLES</h5>
+                        <span>$160</span>
+                        <h4>ADD TO CART</h4>
+                    </div>
+
+                
+                    <div class="all-img2">
+                        <!-- <p>NEW</p> -->
+                        <img src="imgs/product-2.jpg" style="width: 237px; height: 288px;">
+                        <h5>FLOWER VASE</h5>
+                        <span>$170</span>
+                        <h4>ADD TO CART</h4>
+
+                    </div>
+                    <div class="all-img3">
+                        <!-- <p>NEW</p> -->
+                        <img src="imgs/product-3.jpg" style="width: 237px; height: 288px;">
+                        <h5>DECO ACCESSORY</h5>
+                        <span>$15</span>
+                        <h4>ADD TO CART</h4>
+
+                    </div>
+                    <div class="all-img4">
+                        <!-- <p>NEW</p> -->
+                        <img src="imgs/product-4.jpg" style="width: 237px; height: 288px;">
+                        <h5>WALL CLOCK</h5>
+                        <span>$110</span>
+                        <h4>ADD TO CART</h4>
+
+                    </div>
+                </div>
+                <div class="first-1">
+                    <div class="all-img5">
+                        <!-- <p>NEW</p> -->
+                        <img src="imgs/product-5.jpg" style="width: 237px; height: 288px;">
+                        <h5>BASKET WITH HANDLES</h5>
+                        <span>$160</span>
+                        <h4>ADD TO CART</h4>
+
+                    </div>
+                    <div class="all-img6">
+                        <!-- <p>NEW</p> -->
+                        <img src="imgs/product-6.jpg" style="width: 237px; height: 288px;">
+                        <h5>FLOWER VASE</h5>
+                        <span>$170</span>
+                        <h4>ADD TO CART</h4>
+
+                    </div>
+                    <div class="all-img7">
+                        <!-- <p>NEW</p> -->
+                        <img src="imgs/product-7.jpg" style="width: 237px; height: 288px;">
+                        <h5>DECO ACCESSORY</h5>
+                        <span>$15</span>
+                        <h4>ADD TO CART</h4>
+
+                    </div>
+                    <div class="all-img8">
+                        <!-- <p>NEW</p> -->
+                        <img src="imgs/product-8.jpg" style="width: 237px; height: 288px;">
+                        <h5>WALL CLOCK</h5>
+                        <span>$110</span>
+                        <h4>ADD TO CART</h4>
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="home-decor" class="page">
+                <div class="second">
+                    <div class="first">
+                        <div class="all-img1">
+                            <!-- <p>NEW</p> -->
+                            <img src="imgs/product-1.jpg" style="width: 237px; height: 288px;">
+                            <h5>BASKET WITH HANDLES</h5>
+                            <span>$160</span>
+                            <h4>ADD TO CART</h4>
+                        </div>
+                        <div class="all-img2">
+                            <!-- <p>NEW</p> -->
+                            <img src="imgs/product-2.jpg" style="width: 237px; height: 288px;">
+                            <h5>FLOWER VASE</h5>
+                            <span>$170</span>
+                            <h4>ADD TO CART</h4>
+
+                        </div>
+                        <div class="all-img3">
+                            <!-- <p>NEW</p> -->
+                            <img src="imgs/product-3.jpg" style="width: 237px; height: 288px;">
+                            <h5>DECO ACCESSORY</h5>
+                            <span>$15</span>
+                            <h4>ADD TO CART</h4>
+
+                        </div>
+                        <div class="all-img4">
+                            <!-- <p>NEW</p> -->
+                            <img src="imgs/product-4.jpg" style="width: 237px; height: 288px;">
+                            <h5>WALL CLOCK</h5>
+                            <span>$110</span>
+                            <h4>ADD TO CART</h4>
+
+                        </div>
+                    </div>
+                    <div class="first-1">
+                        <div class="all-img5">
+                            <!-- <p>NEW</p> -->
+                            <img src="imgs/product-5.jpg" style="width: 237px; height: 288px;">
+                            <h5>BASKET WITH HANDLES</h5>
+                            <span>$160</span>
+                            <h4>ADD TO CART</h4>
+
+                        </div>
+                        <div class="all-img6">
+                            <!-- <p>NEW</p> -->
+                            <img src="imgs/product-6.jpg" style="width: 237px; height: 288px;">
+                            <h5>FLOWER VASE</h5>
+                            <span>$170</span>
+                            <h4>ADD TO CART</h4>
+
+                        </div>
+                        <div class="all-img7">
+                            <!-- <p>NEW</p> -->
+                            <img src="imgs/product-7.jpg" style="width: 237px; height: 288px;">
+                            <h5>DECO ACCESSORY</h5>
+                            <span>$15</span>
+                            <h4>ADD TO CART</h4>
+
+                        </div>
+                        <div class="all-img8">
+                            <!-- <p>NEW</p> -->
+                            <img src="imgs/product-8.jpg" style="width: 237px; height: 288px;">
+                            <h5>WALL CLOCK</h5>
+                            <span>$110</span>
+                            <h4>ADD TO CART</h4>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="lightning" class="page">
+                <div class="first-1">
+                    <div class="all-img8">
+                        <!-- <p>NEW</p> -->
+                        <img src="imgs/product-8.jpg" style="width: 237px; height: 288px;">
+                        <h5>WALL CLOCK</h5>
+                        <span>$110</span>
+                        <h4>ADD TO CART</h4>
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="decoration" class="page decoration">
+                <div class="first">
+                    <div class="all-img1">
+                        <!-- <p>NEW</p> -->
+                        <img src="imgs/product-1.jpg" style="width: 237px; height: 288px;">
+                        <h5>BASKET WITH HANDLES</h5>
+                        <span>$160</span>
+                        <h4>ADD TO CART</h4>
+                    </div>
+                    <div class="first-1 extra1">
+                        <div class="all-img7 ">
+                            <!-- <p>NEW</p> -->
+                            <img src="imgs/product-7.jpg" style="width: 237px; height: 288px;">
+                            <h5>DECO ACCESSORY</h5>
+                            <span>$15</span>
+                            <h4>ADD TO CART</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="vase" class="page">
+                <div class="first">
+                    <div class="all-img2">
+                        <!-- <p>NEW</p> -->
+                        <img src="imgs/product-2.jpg" style="width: 237px; height: 288px;">
+                        <h5>FLOWER VASE</h5>
+                        <span>$170</span>
+                        <h4>ADD TO CART</h4>
+                    </div>
+                    <div class="first-1 extra1">
+                        <div class="all-img6">
+                            <!-- <p>NEW</p> -->
+                            <img src="imgs/product-6.jpg" style="width: 237px; height: 288px;">
+                            <h5>FLOWER VASE</h5>
+                            <span>$170</span>
+                            <h4>ADD TO CART</h4>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="basics" class="page ">
+                <div class="first">
+                    <div class="all-img1">
+                        <!-- <p>NEW</p> -->
+                        <img src="imgs/product-1.jpg" style="width: 237px; height: 288px;">
+                        <h5>BASKET WITH HANDLES</h5>
+                        <span>$160</span>
+                        <h4>ADD TO CART</h4>
+                    </div>
+                    <div class="all-img4">
+                        <!-- <p>NEW</p> -->
+                        <img src="imgs/product-4.jpg" style="width: 237px; height: 288px;">
+                        <h5>WALL CLOCK</h5>
+                        <span>$110</span>
+                        <h4>ADD TO CART</h4>
+                    </div>
+                    <div class="first-1 extra1">
+                        <div class="all-img5">
+                            <!-- <p>NEW</p> -->
+                            <img src="imgs/product-5.jpg" style="width: 237px; height: 288px;">
+                            <h5>BASKET WITH HANDLES</h5>
+                            <span>$160</span>
+                            <h4>ADD TO CART</h4>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <hr>
+
+        <footer>
+            <div class="customer-servise">
+                <h5>CUSTOMER SERVICE</h5>
+                <a href="">Help & Contact Us</a>
+                <a href="">Returns & Refunds</a>
+                <a href="">Online Stores</a>
+                <a href="">Terms & Conditions</a>
+            </div>
+            <div class="customer-servise">
+                <h5>COMPANY</h5>
+                <a href="">What We Do</a>
+                <a href="">Available Services</a>
+                <a href="">Latest Posts</a>
+                <a href="">FAQs</a>
+            </div>
+            <div class="customer-servise">
+                <h5>SOCIAL MEDIA</h5>
+                <a href="">Twitter</a>
+                <a href="">Instagram</a>
+                <a href="">Tumblr</a>
+                <a href="">Pinterest</a>
+            </div>
+            <div class="customer-servise">
+                <h5>PROFILE</h5>
+                <a href="">My Account</a>
+                <a href="">Checkout</a>
+                <a href="">Order Tracking</a>
+                <a href="">Help & Support</a>
+            </div>
+           
+        </footer> <hr>
+
+        <div class="last">
+            <div class="copyright">
+                <span>© 2024 Qode Interactive, All Rights Reserved</span>
+            </div>
+            <div class="last-icons">
+                <span>Follow Us</span>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
+
+
+        <script src="home.js"></script>
+</body>
+
+</html>
